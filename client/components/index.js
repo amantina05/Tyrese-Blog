@@ -5,4 +5,7 @@
  */
 export {default as Navbar} from './navbar'
 export {default as UserHome} from './user-home'
-export {Login, Signup} from './auth-form'
+export {default as Poems} from './Poems'
+export {default as Photos} from './Photos'
+export {default as GuestHome} from './GuestHome'
+// export {Login, Signup} from './auth-form'
