@@ -17,6 +17,13 @@ async function seed() {
       name: 'test1',
       pictureUrl: 'https://imgur.com/a/JQCBryC',
       description: 'test test test test test'
+    }),
+
+    Picture.create({
+      name: 'test2',
+      pictureUrl:
+        'https://media.gettyimages.com/photos/an-alligator-is-seen-near-the-seventh-green-during-the-first-round-of-picture-id1145116174?s=612x612',
+      description: 'test test test test test'
     })
   ])
 
